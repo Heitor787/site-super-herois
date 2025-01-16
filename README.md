@@ -6,7 +6,7 @@ Descrição do projeto de site de super heróis
 
 Desenvolvedores
 
-Heitor Gabriel Pereira Mesquita
+Heitor Gabriel Pereira Mesquito
 
 Nomes dos desenvolvedores do projeto
 
