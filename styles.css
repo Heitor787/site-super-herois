@@ -1,0 +1,104 @@
+/* Estilos gerais */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.pdf-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Cabeçalho */
+.pdf-header {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Introdução com imagem grande e texto */
+.introduction {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.hero-img {
+  margin-right: 400px;
+}
+
+.hero-img img {
+  width: 100%;  /* Faz com que a imagem ocupe toda a largura disponível */
+  max-width: 800px;  /* Aumenta o limite de largura para a imagem de introdução */
+  height: auto;  /* Ajusta a altura proporcionalmente */
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.super-heroes-text h2 {
+  font-size: 5em;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Seção dos Super Heróis */
+.heroes {
+  display: flex;
+  flex-direction: column;
+  gap: 40px; /* Espaço entre as seções de heróis */
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px; /* Aumentando o espaço entre imagem e texto */
+}
+
+.hero-img img {
+  width: 350px; /* Imagens maiores */
+  height: 450px; /* Aumentando altura das imagens */
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.hero-description {
+  max-width: 650px; /* Mais espaço para o texto */
+}
+
+.hero-description h2 {
+  font-size: 2.5em; /* Aumentando o tamanho do nome */
+  color: #333;
+}
+
+.hero-description p {
+  font-size: 1.3em; /* Aumentando o tamanho da descrição */
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Rodapé */
+.pdf-footer {
+  text-align: right;
+  font-size: 1.1em;
+  color: #555;
+}
+
+/* Número da página */
+.page-number {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.1em;
+  color: #777;
+}
